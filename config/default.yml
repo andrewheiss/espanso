@@ -9,7 +9,7 @@
 # To make customization easier, this file contains some of the commonly used
 # parameters. Feel free to uncomment and tune them to fit your needs!
 
-search_shortcut: ALT+SHIFT+SPACE
+search_shortcut: CTRL+OPTION+CMD+SHIFT+X
 
 # --- Toggle key
 
