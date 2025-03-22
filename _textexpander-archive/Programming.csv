@@ -1,0 +1,11 @@
+﻿";;dplyrsum","options(dplyr.summarise.inform = FALSE)","Stop dplyr summary message"
+";hadley","library(dplyr)
+library(tidyr)
+library(readr)
+library(haven)
+library(lubridate)
+library(stringr)
+library(httr)
+library(ggplot2)","Hadleyverse"
+";pythonstop","import sys
+sys.exit()","Python stop"

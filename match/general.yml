@@ -1,0 +1,115 @@
+matches:
+  # Typo things
+  - trigger: "teh"
+    replace: "the"
+    propagate_case: true
+    left_word: true
+
+  - triggers: ["tot eh", "tot he"]
+    replace: "to the"
+    propagate_case: true
+    left_word: true
+
+
+  # Dates
+  - trigger: ";date"
+    replace: "{{date}}"
+    vars: 
+      - name: date
+        type: date
+        params:
+          format: "%B %e, %Y"
+    label: "Full date"
+    left_word: true
+
+  - trigger: ";dt"
+    replace: "{{date}}"
+    vars: 
+      - name: date
+        type: date
+        params:
+          format: "%Y-%m-%d"
+    label: "ISO 8601 date"
+    left_word: true
+
+  - trigger: ";dm"
+    replace: "{{date}}"
+    vars: 
+      - name: date
+        type: date
+        params:
+          format: "%Y-%m-%d %H:%M:%S"
+    label: "ISO 8601 date time"
+    left_word: true
+
+  - trigger: ";dz"
+    replace: "{{date}}"
+    vars: 
+      - name: date
+        type: date
+        params:
+          format: "%Y-%m-%dT%H:%M"
+    label: "ISO 8601 date time blog"
+    left_word: true
+
+  - trigger: "(;dt"
+    replace: "({{date}})"
+    vars: 
+      - name: date
+        type: date
+        params:
+          format: "%Y-%m-%d"
+    label: "ISO 8601 date (in parens)"
+    left_word: true
+
+
+  # Arabic
+  - trigger: ";arah"
+    replace: "آه"
+    left_word: true
+
+  - trigger: ";arla"
+    replace: "لا"
+    left_word: true
+
+  - trigger: "مع العسر يسرا"
+    replace: "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا"
+    left_word: true
+
+
+  # Work stuff
+  - trigger: ";;work"
+    replace: |
+      55 Park Place NE, Room 464  
+      Atlanta, GA 30303
+    label: "GSU address"
+    left_word: true
+
+  - trigger: ";;work"
+    replace: "404-413-0147"
+    label: "GSU phone"
+    left_word: true
+
+  - trigger: ";cal"
+    replace: "https://calendly.com/andrewheiss/"
+    label: "Calendly link"
+    left_word: true
+
+  - trigger: ";webex"
+    replace: "https://gsumeetings.webex.com/meet/aheiss"
+    label: "Webex meeting link"
+    left_word: true
+
+
+  # lolz
+  - trigger: ";choose"
+    replace: "I choose that you have to choose, you can't make me choose, and it has to be something good."
+    left_word: true
+
+  - trigger: ";sphinx"
+    replace: "Sphinx of black quartz: judge my vow."
+    left_word: true
+
+  - trigger: ";treason"
+    replace: "If it's what you say I love it especially later in the summer."
+    left_word: true

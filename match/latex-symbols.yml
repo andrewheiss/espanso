@@ -1,0 +1,504 @@
+matches:
+  - trigger: ";;-"
+    replace: "—"
+
+  - trigger: ";;AA"
+    replace: "Å"
+
+  - trigger: ";;Delta"
+    replace: "∆"
+
+  - trigger: ";;Downarrow"
+    replace: "⇓"
+
+  - trigger: ";;Gamma"
+    replace: "Γ"
+
+  - trigger: ";;Im"
+    replace: "ℑ"
+
+  - trigger: ";;Lambda"
+    replace: "Λ"
+
+  - trigger: ";;Leftarrow"
+    replace: "⇐"
+
+  - trigger: ";;Leftrightarrow"
+    replace: "⇔"
+
+  - trigger: ";;Omega"
+    replace: "Ω"
+
+  - trigger: ";;Par"
+    replace: "❡"
+
+  - trigger: ";;Phi"
+    replace: "Φ"
+
+  - trigger: ";;Pi"
+    replace: "Π"
+
+  - trigger: ";;Psi"
+    replace: "Ψ"
+
+  - trigger: ";;Re"
+    replace: "ℜ"
+
+  - trigger: ";;Rightarrow"
+    replace: "⇒"
+
+  - trigger: ";;Sigma"
+    replace: "Σ"
+
+  - trigger: ";;Theta"
+    replace: "Θ"
+
+  - trigger: ";;Uparrow"
+    replace: "⇑"
+
+  - trigger: ";;Updownarrow"
+    replace: "⇕"
+
+  - trigger: ";;Upsilon"
+    replace: "Υ"
+
+  - trigger: ";;Xi"
+    replace: "Ξ"
+
+  - trigger: ";;aleph"
+    replace: "ℵ"
+
+  - trigger: ";;alpha"
+    replace: "α"
+
+  - trigger: ";;amalg"
+    replace: "⨿"
+
+  - trigger: ";;angle"
+    replace: "∠"
+
+  - trigger: ";;approx"
+    replace: "≈"
+
+  - trigger: ";;ast"
+    replace: "∗"
+
+  - trigger: ";;asymp"
+    replace: "≍"
+
+  - trigger: ";;beta"
+    replace: "β"
+
+  - trigger: ";;bot"
+    replace: "⊥"
+
+  - trigger: ";;bowtie"
+    replace: "⋈"
+
+  - trigger: ";;bullet"
+    replace: "•"
+
+  - trigger: ";;cap"
+    replace: "∩"
+
+  - trigger: ";;cdot"
+    replace: "·"
+
+  - trigger: ";;chi"
+    replace: "χ"
+
+  - trigger: ";;circ"
+    replace: "◦"
+
+  - trigger: ";;clubsuit"
+    replace: "♣"
+
+  - trigger: ";;copyright"
+    replace: "©"
+
+  - trigger: ";;cup"
+    replace: "∪"
+
+  - trigger: ";;dag"
+    replace: "†"
+
+  - trigger: ";;dashv"
+    replace: "⊣"
+
+  - trigger: ";;ddag"
+    replace: "‡"
+
+  - trigger: ";;delta"
+    replace: "δ"
+
+  - trigger: ";;diamond"
+    replace: "♦"
+
+  - trigger: ";;div"
+    replace: "÷"
+
+  - trigger: ";;downarrow"
+    replace: "↓"
+
+  - trigger: ";;earth"
+    replace: "♁"
+
+  - trigger: ";;ell"
+    replace: "ℓ"
+
+  - trigger: ";;emptyset"
+    replace: "∅"
+
+  - trigger: ";;epsilon"
+    replace: "ϵ"
+
+  - trigger: ";;equiv"
+    replace: "≡"
+
+  - trigger: ";;eta"
+    replace: "η"
+
+  - trigger: ";;euro"
+    replace: "€"
+
+  - trigger: ";;exists"
+    replace: "∃"
+
+  - trigger: ";;flat"
+    replace: "♭"
+
+  - trigger: ";;forall"
+    replace: "∀"
+
+  - trigger: ";;frown"
+    replace: "⌢"
+
+  - trigger: ";;gamma"
+    replace: "γ"
+
+  - trigger: ";;geq"
+    replace: "≥"
+
+  - trigger: ";;gg"
+    replace: "≫"
+
+  - trigger: ";;hbar"
+    replace: "ħ"
+
+  - trigger: ";;heartsuit"
+    replace: "♥"
+
+  - trigger: ";;imath"
+    replace: "ı"
+
+  - trigger: ";;infty"
+    replace: "∞"
+
+  - trigger: ";;int"
+    replace: "∫"
+
+  - trigger: ";;kappa"
+    replace: "κ"
+
+  - trigger: ";;lambda"
+    replace: "λ"
+
+  - trigger: ";;langle"
+    replace: "〈"
+
+  - trigger: ";;lceil"
+    replace: "⌈"
+
+  - trigger: ";;leftarrow"
+    replace: "←"
+
+  - trigger: ";;leftharpoondown"
+    replace: "↽"
+
+  - trigger: ";;leftharpoonup"
+    replace: "↼"
+
+  - trigger: ";;leftrightarrow"
+    replace: "↔"
+
+  - trigger: ";;leq"
+    replace: "≤"
+
+  - trigger: ";;lfloor"
+    replace: "⌊"
+
+  - trigger: ";;ll"
+    replace: "≪"
+
+  - trigger: ";;member"
+    replace: "∈"
+
+  - trigger: ";;mid"
+    replace: "|"
+
+  - trigger: ";;mp"
+    replace: "∓"
+
+  - trigger: ";;mu"
+    replace: "µ"
+
+  - trigger: ";;nabla"
+    replace: "∇"
+
+  - trigger: ";;natural"
+    replace: "♮"
+
+  - trigger: ";;nearrow"
+    replace: "↗"
+
+  - trigger: ";;neg"
+    replace: "¬"
+
+  - trigger: ";;neq"
+    replace: "≠"
+
+  - trigger: ";;ni"
+    replace: "∋"
+
+  - trigger: ";;notin"
+    replace: "∉"
+
+  - trigger: ";;nparallel"
+    replace: "∦"
+
+  - trigger: ";;nu"
+    replace: "ν"
+
+  - trigger: ";;nwarrow"
+    replace: "↖"
+
+  - trigger: ";;odot"
+    replace: "⊙"
+
+  - trigger: ";;oint"
+    replace: "∮"
+
+  - trigger: ";;omega"
+    replace: "ω"
+
+  - trigger: ";;ominus"
+    replace: "⊖"
+
+  - trigger: ";;oplus"
+    replace: "⊕"
+
+  - trigger: ";;oslash"
+    replace: "⊘"
+
+  - trigger: ";;otimes"
+    replace: "⊗"
+
+  - trigger: ";;parallel"
+    replace: "∥"
+
+  - trigger: ";;partial"
+    replace: "∂"
+
+  - trigger: ";;perp"
+    replace: "⊥"
+
+  - trigger: ";;phi"
+    replace: "φ"
+
+  - trigger: ";;pi"
+    replace: "π"
+
+  - trigger: ";;pm"
+    replace: "±"
+
+  - trigger: ";;pounds"
+    replace: "£"
+
+  - trigger: ";;preceq"
+    replace: "≼"
+
+  - trigger: ";;precise"
+    replace: "≺"
+
+  - trigger: ";;prime"
+    replace: "′"
+
+  - trigger: ";;prod"
+    replace: "∏"
+
+  - trigger: ";;propto"
+    replace: "∝"
+
+  - trigger: ";;psi"
+    replace: "ψ"
+
+  - trigger: ";;rangle"
+    replace: "〉"
+
+  - trigger: ";;rceil"
+    replace: "⌉"
+
+  - trigger: ";;rfloor"
+    replace: "⌋"
+
+  - trigger: ";;rho"
+    replace: "ρ"
+
+  - trigger: ";;rightarrow"
+    replace: "→"
+
+  - trigger: ";;rightharpoondown"
+    replace: "⇁"
+
+  - trigger: ";;rightharpoonup"
+    replace: "⇀"
+
+  - trigger: ";;searrow"
+    replace: "↘"
+
+  - trigger: ";;setminus"
+    replace: ";;"
+
+  - trigger: ";;sharp"
+    replace: "♯"
+
+  - trigger: ";;sigma"
+    replace: "σ"
+
+  - trigger: ";;simeq"
+    replace: "≃"
+
+  - trigger: ";;similar"
+    replace: "∼"
+
+  - trigger: ";;smile"
+    replace: "⌣"
+
+  - trigger: ";;spadesuit"
+    replace: "♠"
+
+  - trigger: ";;sqcap"
+    replace: "⊓"
+
+  - trigger: ";;sqcup"
+    replace: "⊔"
+
+  - trigger: ";;sqrt"
+    replace: "√"
+
+  - trigger: ";;sqsubseteq"
+    replace: "⊑"
+
+  - trigger: ";;sqsupseteq"
+    replace: "⊒"
+
+  - trigger: ";;star"
+    replace: "★"
+
+  - trigger: ";;subseq"
+    replace: "⊆"
+
+  - trigger: ";;subset"
+    replace: "⊂"
+
+  - trigger: ";;succ"
+    replace: "≻"
+
+  - trigger: ";;suceq"
+    replace: "≽"
+
+  - trigger: ";;sum"
+    replace: "∑"
+
+  - trigger: ";;sun"
+    replace: "☉"
+
+  - trigger: ";;supseq"
+    replace: "⊇"
+
+  - trigger: ";;supset"
+    replace: "⊃"
+
+  - trigger: ";;surd"
+    replace: "√"
+
+  - trigger: ";;swarrow"
+    replace: "↙"
+
+  - trigger: ";;tau"
+    replace: "τ"
+
+  - trigger: ";;theta"
+    replace: "θ"
+
+  - trigger: ";;times"
+    replace: "×"
+
+  - trigger: ";;top"
+    replace: "⊤"
+
+  - trigger: ";;trdown"
+    replace: "▽"
+
+  - trigger: ";;triangle"
+    replace: "△"
+
+  - trigger: ";;trleft"
+    replace: "▷"
+
+  - trigger: ";;trright"
+    replace: "◃"
+
+  - trigger: ";;uparrow"
+    replace: "↑"
+
+  - trigger: ";;updownarrow"
+    replace: "↕"
+
+  - trigger: ";;uplus"
+    replace: "⊎"
+
+  - trigger: ";;upsilon"
+    replace: "υ"
+
+  - trigger: ";;varepsilon"
+    replace: "ε"
+
+  - trigger: ";;varphi"
+    replace: "ϕ"
+
+  - trigger: ";;varpi"
+    replace: "ϖ"
+
+  - trigger: ";;varrho"
+    replace: "ϱ"
+
+  - trigger: ";;varsigma"
+    replace: "ς"
+
+  - trigger: ";;vartheta"
+    replace: "ϑ"
+
+  - trigger: ";;vdash"
+    replace: "⊢"
+
+  - trigger: ";;vee"
+    replace: "∨"
+
+  - trigger: ";;wedge"
+    replace: "∧"
+
+  - trigger: ";;wp"
+    replace: "℘"
+
+  - trigger: ";;wr"
+    replace: "≀"
+
+  - trigger: ";;xi"
+    replace: "ξ"
+
+  - trigger: ";;yen"
+    replace: "¥"
+
+  - trigger: ";;zeta"
+    replace: "ζ"

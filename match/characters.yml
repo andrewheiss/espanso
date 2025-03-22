@@ -1,0 +1,231 @@
+matches:
+  - trigger: ";no"
+    replace: "Nº"
+    label: "Numero"
+
+  - trigger: ";;indep"
+    replace: "⫫"
+
+  - trigger: ";^0"
+    replace: "⁰"
+
+  - trigger: ";^1"
+    replace: "¹"
+
+  - trigger: ";^2"
+    replace: "²"
+
+  - trigger: ";^3"
+    replace: "³"
+
+  - trigger: ";^4"
+    replace: "⁴"
+
+  - trigger: ";^5"
+    replace: "⁵"
+
+  - trigger: ";^6"
+    replace: "⁶"
+
+  - trigger: ";^7"
+    replace: "⁷"
+
+  - trigger: ";^8"
+    replace: "⁸"
+
+  - trigger: ";^9"
+    replace: "⁹"
+
+  - trigger: ";aapl"
+    replace: ""
+
+  - trigger: ";academic"
+    replace: "🎓"
+
+  - trigger: ";book"
+    replace: "📖"
+
+  - trigger: ";cancel"
+    replace: "❌"
+
+  - trigger: ";check"
+    replace: "✓"
+
+  - trigger: ";comm"
+    replace: "⌘"
+
+  - trigger: ";ctrl"
+    replace: "^"
+
+  - trigger: ";databar"
+    replace: "📊"
+
+  - trigger: ";datalinedown"
+    replace: "📉"
+
+  - trigger: ";datalineup"
+    replace: "📈"
+
+  - trigger: ";dele"
+    replace: "⌫"
+
+  - trigger: ";divide"
+    replace: "÷"
+
+  - trigger: ";done"
+    replace: "✅"
+
+  - trigger: ";down"
+    replace: "↓"
+
+  - trigger: ";end"
+    replace: "↘"
+
+  - trigger: ";enn"
+    replace: "–"
+
+  - trigger: ";enter"
+    replace: "⌅"
+
+  - trigger: ";esc"
+    replace: "⎋"
+
+  - trigger: ";fatright"
+    replace: "➜"
+
+  - trigger: ";gear"
+    replace: "⚙"
+
+  - trigger: ";heart"
+    replace: "♥"
+
+  - trigger: ";home"
+    replace: "↖"
+
+  - trigger: ";idea"
+    replace: "💡"
+
+  - trigger: ";incubation"
+    replace: "🚼"
+
+  - trigger: ";inprogress"
+    replace: "🔄"
+
+  - trigger: ";laquo"
+    replace: "«"
+
+  - trigger: ";left"
+    replace: "←"
+
+  - trigger: ";like"
+    replace: "👍"
+
+  - trigger: ";line"
+    replace: "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"
+
+  - trigger: ";llap"
+    replace: "🖖"
+
+  - trigger: ";lsaquo"
+    replace: "‹"
+
+  - trigger: ";mindblown"
+    replace: "😳💥😵"
+
+  - trigger: ";minus"
+    replace: "−"
+
+  - trigger: ";nbsp"
+    replace: " "
+    label: "Non-breaking space"
+
+  - trigger: ";nuke"
+    replace: "☣"
+
+  - trigger: ";opt"
+    replace: "⌥"
+
+  - trigger: ";paper"
+    replace: "📄"
+
+  - trigger: ";pause"
+    replace: "⏸"
+
+  - trigger: ";pgdown"
+    replace: "⇟"
+
+  - trigger: ";pgup"
+    replace: "⇞"
+
+  - trigger: ";prime1"
+    replace: "′"
+
+  - trigger: ";prime2"
+    replace: "″"
+
+  - trigger: ";prime3"
+    replace: "‴"
+
+  - trigger: ";prime4"
+    replace: "⁗"
+
+  - trigger: ";raquo"
+    replace: "»"
+
+  - trigger: ";reg"
+    replace: "®"
+
+  - trigger: ";research"
+    replace: "🔬"
+
+  - trigger: ";return"
+    replace: "↩"
+
+  - trigger: ";right"
+    replace: "→"
+
+  - trigger: ";rsaquo"
+    replace: "›"
+
+  - trigger: ";shift"
+    replace: "⇧"
+
+  - trigger: ";skull"
+    replace: "☠"
+
+  - trigger: ";space"
+    replace: "␣"
+
+  - trigger: ";starb"
+    replace: "★"
+
+  - trigger: ";starc"
+    replace: "✪"
+
+  - trigger: ";starr"
+    replace: "⭐"
+
+  - trigger: ";starw"
+    replace: "✩"
+
+  - trigger: ";tab"
+    replace: "⇥"
+
+  - trigger: ";times"
+    replace: "×"
+
+  - trigger: ";tm"
+    replace: "™"
+
+  - trigger: ";trade"
+    replace: "™"
+
+  - trigger: ";university"
+    replace: "🏫"
+
+  - trigger: ";up"
+    replace: "↑"
+
+  - trigger: ";zwsp"
+    replace: "​"
+    label: "Zero width space"

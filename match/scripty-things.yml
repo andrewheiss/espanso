@@ -1,0 +1,15 @@
+matches:
+  - trigger: ";pfd"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - osascript
+            - -e
+            - |
+              tell application "Finder" to get quoted form of POSIX path of (target of front Finder window as text)
+
+  - trigger: ";;server"
+    replace: "python -m http.server"

@@ -1,0 +1,52 @@
+matches:
+  - trigger: ";auc"
+    replace: "American University in Cairo"
+    left_word: true
+
+  - trigger: ";ays"
+    replace: "Andrew Young School of Policy Studies"
+    left_word: true
+
+  - trigger: ";byu"
+    replace: "Brigham Young University"
+    left_word: true
+
+  - trigger: ";dpmap"
+    replace: "Department of Public Management and Policy"
+    left_word: true
+
+  - trigger: ";gsu"
+    replace: "Georgia State University"
+    left_word: true
+
+  - trigger: ";icnl"
+    replace: "International Center for Not-for-Profit Law"
+    left_word: true
+
+  - trigger: ";iri"
+    replace: "International Republican Institute"
+    left_word: true
+
+  - trigger: ";ned"
+    replace: "National Endowment for Democracy"
+    left_word: true
+
+  - trigger: ";osf"
+    replace: "Open Society Foundations"
+    left_word: true
+
+  - trigger: ";pmap"
+    replace: "Public Management and Policy"
+    left_word: true
+
+  - trigger: ";ripm"
+    replace: "Romney Institute of Public Management"
+    left_word: true
+
+  - trigger: ";ripse"
+    replace: "Romney Institute of Public Service and Ethics"
+    left_word: true
+
+  - trigger: ";sanford"
+    replace: "Sanford School of Public Policy"
+    left_word: true

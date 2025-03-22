@@ -1,0 +1,473 @@
+matches:
+  - triggers: [";ip1984", ";ipgut"]
+    label: "Gutenberg Ipsum: 1984"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/1984.txt
+
+  - triggers: [";ipain", ";ipgut"]
+    label: "Gutenberg Ipsum: Ainulindalë"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/ainulindale.txt
+
+  - triggers: [";ipalice", ";ipgut"]
+    label: "Gutenberg Ipsum: Alice in Wonderland"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/alice.txt
+
+  - triggers: [";ipbom", ";ipgut"]
+    label: "Gutenberg Ipsum: Book of Mormon"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/bom.txt
+
+  - triggers: [";ipchris", ";ipgut"]
+    label: "Gutenberg Ipsum: A Christmas Carol"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/christmascarol.txt
+
+  - triggers: [";ipcop", ";ipgut"]
+    label: "Gutenberg Ipsum: David Copperfield"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/copperfield.txt
+
+  - triggers: [";iphob", ";ipgut"]
+    label: "Gutenberg Ipsum: The Hobbit"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/hobbit.txt
+
+  - triggers: [";iphp1", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter 1"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/philosophers_stone.txt
+
+  - triggers: [";iphp2", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter 2"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/chamber_of_secrets.txt
+
+  - triggers: [";iphp3", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter 3"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/prisoner_of_azkaban.txt
+
+  - triggers: [";iphp4", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter 4"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/goblet_of_fire.txt
+
+  - triggers: [";iphp5", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter 5"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/order_of_the_phoenix.txt
+
+  - triggers: [";iphp6", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter 6"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/half_blood_prince.txt
+
+  - triggers: [";iphp7", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter 7"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/deathly_hallows.txt
+
+  - triggers: [";iphpall", ";ipgut"]
+    label: "Gutenberg Ipsum: Harry Potter (all)"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/hp.txt
+
+  - triggers: [";ipiliad", ";ipgut"]
+    label: "Gutenberg Ipsum: The Iliad"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/iliad.txt
+
+  - triggers: [";ipkar", ";ipgut"]
+    label: "Gutenberg Ipsum: The Brothers Karamazov"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/karamazov.txt
+
+  - triggers: [";iplear", ";ipgut"]
+    label: "Gutenberg Ipsum: King Lear"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/lear.txt
+
+  - triggers: [";iplesmis", ";ipgut"]
+    label: "Gutenberg Ipsum: Les Misérables"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/lesmis.txt
+
+  - triggers: [";iplotr1", ";ipgut"]
+    label: "Gutenberg Ipsum: The Fellowship of the Ring"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/fellowship.txt
+
+  - triggers: [";iplotr2", ";ipgut"]
+    label: "Gutenberg Ipsum: The Two Towers"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/two_towers.txt
+
+  - triggers: [";iplotr3", ";ipgut"]
+    label: "Gutenberg Ipsum: The Return of the King"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/return_king.txt
+
+  - triggers: [";iplotrall", ";ipgut"]
+    label: "Gutenberg Ipsum: LOTR (all)"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/lotr.txt
+
+  - triggers: [";ipnt", ";ipgut"]
+    label: "Gutenberg Ipsum: New Testament"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/nt.txt
+
+  - triggers: [";ipot", ";ipgut"]
+    label: "Gutenberg Ipsum: Old Testament"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/ot.txt
+
+  - triggers: [";ipprin", ";ipgut"]
+    label: "Gutenberg Ipsum: Princess of Mars"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/princessofmars.txt
+
+  - triggers: [";ipsil", ";ipgut"]
+    label: "Gutenberg Ipsum: The Silmarillion"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/silmarillion.txt
+
+  - triggers: [";ipsw1", ";ipgut"]
+    label: "Gutenberg Ipsum: The Phantom Menace"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/phantom_menace.txt
+
+  - triggers: [";ipsw2", ";ipgut"]
+    label: "Gutenberg Ipsum: Attack of the Clones"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/attack_of_the_clones.txt
+
+  - triggers: [";ipsw3", ";ipgut"]
+    label: "Gutenberg Ipsum: Revenge of the Sith"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/revenge_of_the_sith.txt
+
+  - triggers: [";ipsw4", ";ipgut"]
+    label: "Gutenberg Ipsum: A New Hope"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/a_new_hope.txt
+
+  - triggers: [";ipsw5", ";ipgut"]
+    label: "Gutenberg Ipsum: Empire Strikes Back"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/empire_strikes_back.txt
+
+  - triggers: [";ipsw6", ";ipgut"]
+    label: "Gutenberg Ipsum: Return of the Jedi"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/return_of_the_jedi.txt
+
+  - triggers: [";ipsw7", ";ipgut"]
+    label: "Gutenberg Ipsum: The Force Awakens"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/the_force_awakens.txt
+
+  - triggers: [";ipsw8", ";ipgut"]
+    label: "Gutenberg Ipsum: The Last Jedi"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/last_jedi.txt
+
+  - triggers: [";ipsw9", ";ipgut"]
+    label: "Gutenberg Ipsum: The Rise of Skywalker"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/rise_of_skywalker.txt
+
+  - triggers: [";ipswall", ";ipgut"]
+    label: "Gutenberg Ipsum: Star Wars (all)"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_all.txt
+
+  - triggers: [";ipsworig", ";ipgut"]
+    label: "Gutenberg Ipsum: Star Wars (original trilogy)"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_orig.txt
+
+  - triggers: [";ipswpre", ";ipgut"]
+    label: "Gutenberg Ipsum: Star Wars (prequels)"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_prequels.txt
+
+  - triggers: [";ipswr1", ";ipgut"]
+    label: "Gutenberg Ipsum: Rogue One"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/rogue_one.txt
+
+  - triggers: [";ipswseq", ";ipgut"]
+    label: "Gutenberg Ipsum: Star Wars (sequel trilogy)"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_sequels.txt
+
+  - triggers: [";iptotc", ";ipgut"]
+    label: "Gutenberg Ipsum: Tale of Two Cities"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/totc.txt
+
+  - triggers: [";ipwp", ";ipgut"]
+    label: "Gutenberg Ipsum: War and Peace"
+    replace: "{{output}}"
+    left_word: true
+    vars:
+    - name: output
+      type: shell
+      params:
+        cmd: |
+          cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/warpeace.txt

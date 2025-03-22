@@ -1,0 +1,50 @@
+matches:
+  - trigger: "'ashwat"
+    replace: "*ʿashwaʾiyat*"
+    left_word: true
+
+  - trigger: "Ibn AW"
+    replace: "Ibn Abd al-Wahhab"
+    left_word: true
+
+  - trigger: "MErn"
+    replace: "Middle Eastern"
+    left_word: true
+
+  - trigger: "con-nad"
+    replace: "*Il Convito/al-Nadi*"
+    left_word: true
+
+  - trigger: "corvee"
+    replace: "corvée"
+    left_word: true
+
+  - trigger: "italta"
+    replace: "*italianità*"
+    left_word: true
+
+  - trigger: "mmsrr"
+    replace: "*mutamassir*"
+    left_word: true
+
+  - trigger: "mmsrun"
+    replace: "*mutamassirun*"
+    left_word: true
+
+  - trigger: "mmsrya"
+    replace: "*mutamassiriyya*"
+    left_word: true
+
+  - trigger: "pen-pac"
+    replace: "*pénétration pacifique*"
+    left_word: true
+
+  - trigger: "sa'idi"
+    replace: "saʿidi"
+    left_word: true
+    propagate_case: true
+
+  - trigger: "shi'"
+    replace: "shiʿ"
+    left_word: true
+    propagate_case: true

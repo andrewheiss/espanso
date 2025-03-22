@@ -1,0 +1,86 @@
+﻿";ip1984","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/1984.txt","1984"
+";ipain","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/ainulindale.txt","Ainulindalë"
+";ipalice","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/alice.txt","Alice in Wonderland"
+";ipbom","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/bom.txt","Book of Mormon"
+";ipchris","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/christmascarol.txt","A Christmas Carol"
+";ipcop","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/copperfield.txt","David Copperfield"
+";iphob","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/hobbit.txt","The Hobbit"
+";iphp1","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/philosophers_stone.txt","Harry Potter 1"
+";iphp2","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/chamber_of_secrets.txt","Harry Potter 2"
+";iphp3","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/prisoner_of_azkaban.txt","Harry Potter 3"
+";iphp4","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/goblet_of_fire.txt","Harry Potter 4"
+";iphp5","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/order_of_the_phoenix.txt","Harry Potter 5"
+";iphp6","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/half_blood_prince.txt","Harry Potter 6"
+";iphp7","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/deathly_hallows.txt","Harry Potter 7"
+";iphpall","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/hp.txt","Harry Potter (all)"
+";ipiliad","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/iliad.txt","The Iliad"
+";ipkar","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/karamazov.txt","The Brothers Karamazov"
+";iplear","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/lear.txt","King Lear"
+";iplesmis","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/lesmis.txt","Les Misérables"
+";iplotr1","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/fellowship.txt","The Fellowship of the Ring"
+";iplotr2","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/two_towers.txt","The Two Towers"
+";iplotr3","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/return_king.txt","The Return of the King"
+";iplotrall","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/lotr.txt","LOTR (all)"
+";ipnt","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/nt.txt","New Testament"
+";ipot","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/ot.txt","Old Testament"
+";ipprin","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/princessofmars.txt","Princess of Mars"
+";ipsil","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/silmarillion.txt","The Silmarillion"
+";ipsw1","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/phantom_menace.txt","The Phantom Menace"
+";ipsw2","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/attack_of_the_clones.txt","Attack of the Clones"
+";ipsw3","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/revenge_of_the_sith.txt","Revenge of the Sith"
+";ipsw4","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/a_new_hope.txt","A New Hope"
+";ipsw5","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/empire_strikes_back.txt","Empire Strikes Back"
+";ipsw6","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/return_of_the_jedi.txt","Return of the Jedi"
+";ipsw7","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.pygenerate corpora/the_force_awakens.txt","The Force Awakens"
+";ipsw8","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/last_jedi.txt","The Last Jedi"
+";ipsw9","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/rise_of_skywalker.txt","The Rise of Skywalker"
+";ipswall","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_all.txt","Star Wars (all)"
+";ipsworig","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_orig.txt","Star Wars (original trilogy)"
+";ipswpre","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_prequels.txt","Star Wars (prequels)"
+";ipswr1","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/rogue_one.txt","Rogue One"
+";ipswseq","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/star_wars_sequels.txt","Star Wars (sequel trilogy)"
+";iptotc","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/totc.txt","Tale of Two Cities"
+";ipwp","#!/usr/bin/env bash
+cd ~/Development/•\ Mini\ projects/gutenberg-ipsum2/; ~/.local/bin/uv run gutenberg_ipsum2.py corpora/warpeace.txt","War and Peace"

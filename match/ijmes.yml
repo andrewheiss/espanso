@@ -1,0 +1,60 @@
+matches:
+  - trigger: ";ij'"
+    replace: "ʿ"
+
+  - trigger: ";ijA"
+    replace: "Ā"
+
+  - trigger: ";ijD"
+    replace: "Ḍ"
+
+  - trigger: ";ijE"
+    replace: "Ē"
+
+  - trigger: ";ijH"
+    replace: "Ḥ"
+
+  - trigger: ";ijI"
+    replace: "Ī"
+
+  - trigger: ";ijS"
+    replace: "Ṣ"
+
+  - trigger: ";ijT"
+    replace: "Ṭ"
+
+  - trigger: ";ijU"
+    replace: "Ū"
+
+  - trigger: ";ijZ"
+    replace: "Ẓ"
+
+  - trigger: ";ij`"
+    replace: "ʾ"
+
+  - trigger: ";ija"
+    replace: "ā"
+
+  - trigger: ";ijd"
+    replace: "ḍ"
+
+  - trigger: ";ije"
+    replace: "ē"
+
+  - trigger: ";ijh"
+    replace: "ḥ"
+
+  - trigger: ";iji"
+    replace: "ī"
+
+  - trigger: ";ijs"
+    replace: "ṣ"
+
+  - trigger: ";ijt"
+    replace: "ṭ"
+
+  - trigger: ";iju"
+    replace: "ū"
+
+  - trigger: ";ijz"
+    replace: "ẓ"

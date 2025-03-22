@@ -1,0 +1,17 @@
+matches:
+  - trigger: ";dplyrsum"
+    replace: "options(dplyr.summarise.inform = FALSE)"
+    label: "Disable dplyr summarize message"
+    left_word: true
+
+  - trigger: ";rstop"
+    replace: "knitr::knit_exit()"
+    label: "knitr stop"
+    left_word: true
+
+  - trigger: ";pythonstop"
+    replace: |
+      import sys
+      sys.exit
+    label: "Python stop"
+    left_word: true

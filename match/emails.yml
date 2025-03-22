@@ -1,0 +1,31 @@
+matches:
+  - trigger: ";datavizno"
+    replace: |
+      The course is officially only for registered GSU students, but you’re welcome to work through the materials on your own!
+
+  - trigger: ";siggsu"
+    replace: |
+      Andrew Heiss, Ph.D.  
+      Assistant Professor  
+      Department of Public Management and Policy  
+      Andrew Young School of Policy Studies  
+      Georgia State University  
+      www.andrewheiss.com
+    lablel: "GSU signature"
+
+  - trigger: ";sigbyu"
+    replace: |
+      Andrew Heiss, Ph.D.  
+      Visiting Assistant Professor of Public Management  
+      Romney Institute of Public Service and Ethics  
+      Brigham Young University  
+      www.andrewheiss.com | @andrewheiss
+    label: "BYU signature"
+
+  - trigger: ";sigduke"
+    replace: |
+      Andrew Heiss  
+      Ph.D. Candidate, Public Policy  
+      Sanford School of Public Policy | Duke University  
+      www.andrewheiss.com | @andrewheiss
+    label: "Duke signature"

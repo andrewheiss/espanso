@@ -1,0 +1,16 @@
+matches:
+  - trigger: "Zoe"
+    replace: "Zoë"
+    left_word: true
+
+  - trigger: ";kski"
+    replace: "Krzyzewski"
+    left_word: true
+
+  - trigger: ";pski"
+    replace: "Przeworski"
+    left_word: true
+
+  - trigger: "Buthe"
+    replace: "Büthe"
+    left_word: true

@@ -1,0 +1,82 @@
+matches:
+  - trigger: ";bear"
+    replace: "ʕ•ᴥ•ʔ"
+    left_word: true
+
+  - trigger: ";bigeyes"
+    replace: "◉_◉"
+    left_word: true
+
+  - trigger: ";bigsmile"
+    replace: "ʘ‿ʘ"
+    left_word: true
+
+  - trigger: ";bunny"
+    replace: |
+      |￣￣￣￣￣￣|
+      | HOW  DO | 
+      | I MAKE  | 
+      | BUNNY?? | 
+      |＿＿＿＿＿＿| 
+      (\__/) || 
+      (•ㅅ•) || 
+      / 　 づ
+    left_word: true
+
+  - trigger: ";cry"
+    replace: "ಠ_ಥ"
+    left_word: true
+
+  - trigger: ";eyebrow"
+    replace: "ಠಿ_ಠ"
+    left_word: true
+
+  - trigger: ";idk"
+    replace: "¯\_(°_o)_/¯"
+    left_word: true
+
+  - trigger: ";kirby"
+    replace: "༼ つ ◕_◕ ༽つ"
+    left_word: true
+
+  - trigger: ";love"
+    replace: "♥‿♥"
+    left_word: true
+
+  - trigger: ";mdidk"
+    replace: "¯\\\_(°_o)\_/¯"
+    left_word: true
+
+  - trigger: ";mdshrug"
+    replace: "¯\\\_(ツ)\_/¯"
+    left_word: true
+
+  - trigger: ";mdyay"
+    replace: |
+      \\(•◡•)/
+    left_word: true
+
+  - trigger: ";shrug"
+    replace: "¯\_(ツ)_/¯"
+    left_word: true
+
+  - trigger: ";supersad"
+    replace: "(ಥ﹏ಥ)"
+    left_word: true
+
+  - trigger: ";throw"
+    replace: "(╯°□°)╯︵ ┻━┻"
+    left_word: true
+
+  - trigger: ";unamused"
+    replace: "ಠ_ಠ"
+    left_word: true
+
+  - trigger: ";yay"
+    replace: |
+      \(•◡•)/
+    left_word: true
+
+  - trigger: ";yell"
+    replace: "ヽ(｀○´)/"
+    left_word: true

@@ -1,0 +1,56 @@
+﻿";;;do","\operatorname{do}(%|)","do-operator"
+";;aligned","\begin{aligned}
+%|
+\end{aligned}","LaTeX aligned"
+";;call","::: {.callout-%fillpopup:name=Type:default=note:warning:important:tip:caution%}
+%|
+:::","Quarto callout"
+";;figchunk","![](`r knitr::fig_chunk(""chunkname"", ""png"")`)","Knitr fig_chunk"
+";;figure","<figure>
+  <img src=""XXX"" alt=""ZZZ"" title=""ZZZ"" width=""100%%"">
+  <figcaption>YYY</figcaption>
+</figure>","xaringan figure"
+";;on","\operatorname{%|}",""
+";;pan","::: {.panel-tabset}
+%|
+:::","panel tabset"
+";;qmd1","---
+title: ""%|""
+date: %Y-%m-%d
+author: ""Andrew Heiss""
+---
+","Quarto YAML heading 1"
+";;qmd2","---
+title: ""%|""
+date: %Y-%m-%d
+author:
+- name: Andrew Heiss
+  affiliation: Georgia State University
+  email: aheiss@gsu.edu
+  orcid: 0000-0002-3948-3914
+---
+","Quarto YAML heading 2"
+";br","<br>","HTML break"
+";kbd","<kbd>%|</kbd>","Keyboard tags"
+";mdl","[%|](%clipboard)","Markdown link"
+";panhead","---
+title: %|
+author:
+- name: Andrew Heiss
+  affiliation: Andrew Young School of Policy Studies, Georgia State University
+  email: aheiss@gsu.edu
+date: %B %e, %Y
+published: Working paper.
+abstract: Lorem ipsum…
+reference-section-title: References
+---
+","YAML Pandoc header"
+";paninclude","!INCLUDE ""%|""",""
+";panref","# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{0pt}
+\vspace*{0in}
+\noindent","Pandoc LaTeX references"
+";ql","#| label: %|<br />","Quarto chunk label"
+";tex","~~$%|$~~","Ulysses TeX"

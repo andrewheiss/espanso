@@ -1,0 +1,188 @@
+matches:
+  # Markdown / HTML things
+  - trigger: ";mdl"
+    replace: "[$|$]({{clipb}})"
+    vars:
+      - name: "clipb"
+        type: "clipboard"
+
+  - trigger: ";br"
+    replace: "<br>"
+
+  - trigger: ";kbd"
+    replace: "<kbd>$|$</kbd>"
+
+
+  # LaTeX-y things
+  - trigger: ";;;do"
+    replace: "\\operatorname{do}($|$)"
+    label: "do-operator"
+
+  - trigger: ";;on"
+    replace: "\\operatorname{$|$}"
+    label: "LaTeX operator"
+
+  - trigger: ";;aligned"
+    replace: |
+      \begin{aligned}
+      $|$
+      \end{aligned}
+    label: "LaTeX aligned"
+
+
+  # Quarto things
+  - trigger: ";ql"
+    replace: "#| label: $|$"
+    label: "Quarto chunk label"
+
+  - trigger: ";;pan"
+    replace: |
+      ::: {.panel-tabset}
+      $|$
+      :::
+    label: "Panel tabset"
+
+  - trigger: ";;include"
+    replace: |
+      \{\{< include _content.qmd >\}\}
+    label: "Quarto include"
+
+  - trigger: ";;call"
+    label: "Quarto callout"
+    form: |
+      ::: {.callout-[[type]][[collapse]][[appearance]][[icon]]}
+      $|$
+      :::
+    form_fields:
+      type:
+        type: choice
+        default: note
+        values:
+          - note
+          - warning
+          - important
+          - tip
+          - caution
+      collapse:
+        type: choice
+        values: 
+          - ''
+          - ' collapse="true"'
+      appearance:
+        type: choice
+        values: 
+          - ''
+          - ' appearance="simple"'
+          - ' appearance="minimal"'
+      icon:
+        type: choice
+        values: 
+          - ''
+          - ' icon=false'
+
+  - trigger: ";;visible"
+    label: "Quarto conditional content"
+    form: |
+      ::: {[[content]][[condition]]}
+      $|$
+      :::
+    form_fields:
+      content:
+        type: choice
+        values:
+          - ".content-visible"
+          - ".content-hidden"
+      condition:
+        type: choice
+        # These choices aren't exhaustive...
+        values:
+          - ' when-format="html"'
+          - ' unless-format="pdf"'
+          - ' unless-meta="path.to.metadata"'
+
+  - trigger: ";;qmd"
+    replace: |
+      ---
+      title: "$|$"
+      date: {{yaml_date}}
+      author: "Andrew Heiss"
+      ---
+    vars: 
+      - name: yaml_date
+        type: date
+        params:
+          format: "%Y-%m-%d"
+    label: Basic Quarto YAML header
+
+  - trigger: ";;qmd"
+    replace: |
+      ---
+      title: "$|$"
+      date: {{yaml_date}}
+      author:
+      - name: Andrew Heiss
+        affiliation: Georgia State University
+        email: aheiss@gsu.edu
+        orcid: 0000-0002-3948-3914
+      ---
+    vars: 
+      - name: yaml_date
+        type: date
+        params:
+          format: "%Y-%m-%d"
+    label: Quarto YAML header with my affiliation
+
+  - trigger: ";;qmd"
+    replace: |
+      ---
+      title: "TITLE HERE"
+      subtitle: "SUBTITLE HERE"
+      date: {{yaml_date}}
+      author:
+      - name: Andrew Heiss
+        affiliations: 
+          - id: gsu
+            name: Georgia State University
+            department: Andrew Young School of Policy Studies, Department of Public Management and Policy
+            address: "55 Park Place NE, #464"
+            city: Atlanta
+            region: GA
+            country: USA
+            postal-code: 30303
+        orcid: 0000-0002-3948-3914
+        url: https://www.andrewheiss.com
+        email: aheiss@gsu.edu
+
+      code-repo: "Access the code and data at <https://github.com/andrewheiss/BLAH>"
+
+      bibliography: bib/references.json
+      csl: bib/apa.csl
+
+      abstract: |
+        ABSTRACT HERE
+
+      keywords:
+        - BLAH
+        - BLAH
+      ---
+    vars: 
+      - name: yaml_date
+        type: date
+        params:
+          format: "%Y-%m-%d"
+    label: Full academic Quarto YAML header
+
+
+  # R Markdown/knitr things
+  - trigger: ";;figchunk"
+    replace: |
+      ![](`r knitr::fig_chunk("chunkname", "png")`)
+    label: "Knitr fig_chunk"
+
+  - trigger: ";;figure"
+    replace: |
+      <figure>
+        <img src="XXX" alt="ZZZ" title="ZZZ" width="100%">
+        <figcaption>YYY</figcaption>
+      </figure>
+    label: "xaringan figure"

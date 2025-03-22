@@ -1,0 +1,120 @@
+matches:
+  - trigger: ";dc"
+    replace: "Doctrine & Covenants"
+    propagate_case: true
+    left_word: true
+
+  - trigger: ";mnl"
+    replace: "multinomial"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "alt-right"
+    replace: "racist white nationalists"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "authn"
+    replace: "authoritarian"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "charrs"
+    replace: "characteristics"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "consttal"
+    replace: "constitutional"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "consttn"
+    replace: "constitution"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "entrepal"
+    replace: "entrepreneurial"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "entrepr"
+    replace: "entrepreneur"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "hrcl"
+    replace: "hierarchical"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "insttal"
+    replace: "institutional"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "insttn"
+    replace: "institution"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "intal"
+    replace: "international"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "libl"
+    replace: "liberal"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "libm"
+    replace: "liberalism"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "nibl"
+    replace: "neoliberal"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "nibm"
+    replace: "neoliberalism"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "nonstate"
+    replace: "non-state"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "oopc"
+    replace: "opportunity cost"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "orgal"
+    replace: "organizational"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "orgg"
+    replace: "organization"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "ppf"
+    replace: "preference falsification"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "transal"
+    replace: "transnational"
+    propagate_case: true
+    left_word: true
+
+  - trigger: "vis-a-vis"
+    replace: "vis-à-vis"
+    propagate_case: true
+    left_word: true

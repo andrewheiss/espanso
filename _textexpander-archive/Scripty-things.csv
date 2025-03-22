@@ -1,0 +1,37 @@
+﻿";;favs","library(tidyverse)
+library(rtweet)
+
+favorites <- get_favorites(""andrewheiss"", n = 3000)
+
+favorites %%>%% 
+  filter(str_detect(text, ""thing to search for""))
+","Search Twitter favorites"
+";;kbl","# via https://github.com/haozhu233/kableExtra/issues/689#issuecomment-1170167006
+print.kableExtra <- function (x, ...) {
+  view_html <- getOption(""kableExtra_view_html"", TRUE)
+  if (view_html & interactive()) {
+    dep <- list(
+      rmarkdown::html_dependency_jquery(), 
+      rmarkdown::html_dependency_bootstrap(theme = ""cosmo""), 
+      kableExtra::html_dependency_kePrint(), 
+      kableExtra::html_dependency_lightable()
+    )
+    
+    x <- sub('style=""', 'style=""color: black; ', as.character(x), fixed = TRUE)
+        
+    html_kable <- htmltools::browsable(
+      htmltools::HTML(
+        as.character(x), 
+        ""<script type=\""text/x-mathjax-config\"">MathJax.Hub.Config({tex2jax: {inlineMath: [[\""$\"",\""$\""]]}})</script><script async src=\""https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\""></script>""
+      )
+    )
+    htmltools::htmlDependencies(html_kable) <- dep
+    class(html_kable) <- ""shiny.tag.list""
+    print(html_kable)
+  }
+  else {
+    cat(as.character(x))
+  }
+}","kableExtra in dark RStudio themes"
+";;serve","python3 -m http.server","Python server"
+";pfd","tell application ""Finder"" to get quoted form of POSIX path of (target of front Finder window as text)","Path of front Finder folder"

@@ -1,0 +1,46 @@
+matches:
+  - trigger: ";;done"
+    replace: |
+      ## Research (0)
+
+      - **Read**: 
+      - **Wrote**: 
+      - **Analyzed**: 
+      - **Revised**: 
+      - **Submitted**: 
+      - **Reviewed**: 
+
+      ## Teaching (0)
+
+      - **Taught**: 
+      - **Prepared**: 
+      - **Graded**: 
+
+      ## Service (0)
+
+      - **Met**: 
+      - **Advised**: 
+
+      ## Other (0)
+
+      - **Planned**: 
+      - **E-mailed**: 
+      - **Created**: 
+    label: "Done list entry"
+    left_word: true
+
+  - trigger: ";scrum"
+    replace: |
+      ### Morning check-in
+
+      - *What have I done since the last time I checked in?*: 
+      - *What will I do today?*: 
+      - *What obstacles are blocking me?*: 
+
+      ---
+
+      ### What did I do today?
+
+      
+    label: "Scrum"
+    left_word: true
