@@ -1,4 +1,16 @@
 matches:
+  - triggers: [";wm", ";mw"]
+    replace: |-
+      #| warning: false
+      #| message: false
+    label: "Disable warnings and messages in a Quarto chunk"
+    left_word: true
+
+  - trigger: ";tidy"
+    replace: "library(tidyverse)"
+    label: "library(tidyverse)"
+    left_word: true
+
   - trigger: ";dplyrsum"
     replace: "options(dplyr.summarise.inform = FALSE)"
     label: "Disable dplyr summarize message"
@@ -14,4 +26,18 @@ matches:
       import sys
       sys.exit
     label: "Python stop"
+    left_word: true
+
+  - trigger: ";citecount"
+    replace: |
+      library(tidyverse)
+
+      citekeys <- read_file("manuscript.qmd") |>
+        str_extract_all("@([A-Za-z0-9_:]+)") |>
+        unlist() |>
+        str_remove_all("^@") |>
+        as_tibble() |>
+        count(value) |>
+        arrange(desc(n))
+    label: "Count citations in qmd"
     left_word: true

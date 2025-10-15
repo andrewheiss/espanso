@@ -50,3 +50,7 @@ matches:
   - trigger: ";sanford"
     replace: "Sanford School of Public Policy"
     left_word: true
+
+  - trigger: ";bcc"
+    replace: "By Common Consent Press"
+    left_word: true

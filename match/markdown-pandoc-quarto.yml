@@ -41,6 +41,21 @@ matches:
       $|$
       :::
     label: "Panel tabset"
+  
+  - trigger: ";;col"
+    replace: |
+      :::: {.columns}
+
+      ::: {.column}
+      $|$
+      :::
+
+      ::: {.column}
+
+      :::
+
+      ::::
+    label: "Quarto columns"
 
   - trigger: ";;include"
     replace: |
