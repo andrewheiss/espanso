@@ -1,0 +1,81 @@
+# These come from the Conventional Comments standard for formatting comments 
+# for review and feedback (https://conventionalcomments.org/).
+#
+# You can adjust these however you want, changing the trigger, adding new 
+# labels or modifying existing labels, adding decorations, and so on.
+
+matches:
+  - trigger: ";;cc"
+    label: "CC: Praise (highlights something positive)"
+    replace: "**praise:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Nitpick (trivial preference-based requests)"
+    replace: "**nitpick:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Suggestion (improvements to current subject; use decorations)"
+    replace: "**suggestion:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Issue (highlights specific problems; pair with a suggestion)"
+    replace: "**issue:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: TODO (small, trivial, but necessary changes)"
+    replace: "**todo:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Question (potential concerns, but unsure if relvant)"
+    replace: "**question:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Thought (ideas that popped up from reviewing)"
+    replace: "**thought:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Chore (simple tasks that must be done before official acceptance; common processes)"
+    replace: "**chore:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Note (highlights something the reader should take note of)"
+    replace: "**note:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Typo (like TODOs, but main issue is misspelling)"
+    replace: "**typo:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Polish (like suggestions, where nothing is necessarily wrong, but something can immediately improve the quality)"
+    replace: "**polish:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC: Quibble (like nitpicks, but alternative language)"
+    replace: "**quibble:** "
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC decoration: Non-blocking (comment should not prevent acceptance)"
+    replace: "(non-blocking)"
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC decoration: Blocking (comment *should* prevent acceptance)"
+    replace: "(blocking)"
+    left_word: true
+
+  - trigger: ";;cc"
+    label: "CC decoration: If minor (author should resolve only if changes are minor or trivial)"
+    replace: "(if-minor)"
+    left_word: true
