@@ -28,6 +28,11 @@ matches:
     label: "knitr stop"
     left_word: true
 
+  - trigger: ";tarm"
+    replace: "targets::tar_make()"
+    label: "targets::tar_make()"
+    left_word: true
+
   - trigger: ";pythonstop"
     replace: |
       import sys
