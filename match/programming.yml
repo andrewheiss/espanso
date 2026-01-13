@@ -6,6 +6,13 @@ matches:
     label: "Disable warnings and messages in a Quarto chunk"
     left_word: true
 
+  - triggers: [";figw", ";figh", ";wh"]
+    replace: |-
+      #| fig-width: $|$
+      #| fig-height: 
+    label: "Add figure dimensions to a Quarto chunk"
+    left_word: true
+
   - trigger: ";tidy"
     replace: "library(tidyverse)"
     label: "library(tidyverse)"
