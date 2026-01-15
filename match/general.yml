@@ -91,7 +91,7 @@ matches:
     left_word: true
 
   - trigger: ";cal"
-    replace: "https://calendly.com/andrewheiss/"
+    replace: "https://scheduler.zoom.us/andrewheiss"
     label: "Calendly link"
     left_word: true
 
@@ -100,6 +100,10 @@ matches:
     label: "Webex meeting link"
     left_word: true
 
+  - trigger: ";zoom"
+    replace: "https://gsu-edu.zoom.us/j/7751765175"
+    label: "Zoom meeting link"
+    left_word: true
 
   # lolz
   - trigger: ";choose"
