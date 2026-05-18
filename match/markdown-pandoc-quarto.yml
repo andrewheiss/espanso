@@ -137,6 +137,7 @@ matches:
       author:
       - name: Andrew Heiss
         affiliation: Georgia State University
+        url: "https://www.andrewheiss.com"
         email: aheiss@gsu.edu
         orcid: 0000-0002-3948-3914
       ---
