@@ -1,4 +1,12 @@
 matches:
+  - trigger: ";sigguq"
+    replace: |
+      Andrew Heiss, Ph.D.  
+      Assistant Professor of International Politics  
+      Georgetown University in Qatar  
+      www.andrewheiss.com
+    label: "GU-Q signature"
+
   - trigger: ";datavizno"
     replace: |
       The course is officially only for registered GSU students, but you’re welcome to work through the materials on your own!
@@ -11,7 +19,7 @@ matches:
       Andrew Young School of Policy Studies  
       Georgia State University  
       www.andrewheiss.com
-    lablel: "GSU signature"
+    label: "GSU signature"
 
   - trigger: ";sigbyu"
     replace: |

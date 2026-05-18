@@ -19,6 +19,10 @@ matches:
     replace: "Georgia State University"
     left_word: true
 
+  - trigger: ";guq"
+    replace: "Georgetown University in Qatar"
+    left_word: true
+
   - trigger: ";icnl"
     replace: "International Center for Not-for-Profit Law"
     left_word: true
