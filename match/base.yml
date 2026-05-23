@@ -5,10 +5,11 @@
 # You can use this file to define the base matches (aka snippets)
 # that will be available in every application when using espanso.
 
-# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
-
 # Matches are substitution rules: when you type the "trigger" string
 # it gets replaced by the "replace" string.
+
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
 matches:
   # Simple text replacement
   - trigger: ":espanso"
